@@ -30,7 +30,7 @@ Once your database is set up, configure all of the fields in login.py to match y
 Run main.py to start the querying algorithm.
 
 Usage:
-    python main.py -mo <month> -d <day> -it <max_iterations> -a \<algorithm\>
+    python main.py -mo \<month\> -d \<day\> -it \<max_iterations\> -a \<algorithm\>
 
 If max_iterations is not set, 7 days of data will be processed.
 
