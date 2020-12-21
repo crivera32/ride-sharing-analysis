@@ -29,7 +29,7 @@ The resulting preprocessed .csv is ready to be loaded into the database.
 
 Once your database is set up, configure all of the fields in login.py to match your DB login credentials.
 
-## Run the Code
+## Running the Ride Merging Code
 
 Run main.py to start the querying algorithm.
 
@@ -42,4 +42,7 @@ There are two options for algorithm, either 'networkx' (optimal) or 'greedy' (fa
 
 ## Results
 
+
+![alt text](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/distance_small.png)
+![alt text](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/time_small.png)
 
