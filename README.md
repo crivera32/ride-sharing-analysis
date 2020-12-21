@@ -18,7 +18,7 @@ networkx
 
 ## Data Preprocessing
 
-Run preprocess.py on the raw .csv files. The data can be accessed [here](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+Run preprocess.py on the raw .csv files. The data can be accessed [here](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page). Note the preprocessing script is intended for yellow taxi data recorded in the year 2015 or earlier.
 
 Usage:
     python preprocess.py -f \<filename\>
@@ -42,7 +42,8 @@ There are two options for algorithm, either 'networkx' (optimal) or 'greedy' (fa
 
 ## Results
 
+These graphs show the percentage of distance saved by merging rides and the average execution time per 5 minutes of data, as a function of the maximum delay allowed when merging rides. Comparing the results for the two matching algorithms considered, we see that the greedy approach slightly underperforms the optimal solution in the distance saved, but it is significantly faster when a longer delay is used. These results were obtained by running the code on 3 months of data taken from 2012.
 
-![alt text](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/distance_small.png)
-![alt text](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/time_small.png)
+![distance saved](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/distance_small.png)
+![execution time](https://raw.githubusercontent.com/crivera32/ride-sharing-analysis/main/plots/time_small.png)
 
