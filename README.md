@@ -14,10 +14,10 @@ networkx
 
 ## Data Preprocessing
 
-Run preprocess.py on the raw .csv files.
+Run preprocess.py on the raw .csv files. The data can be accessed (here)[https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page].
 
 Usage:
-    python preprocess.py -f <filename>
+    python preprocess.py -f \<filename\>
 
 The resulting preprocessed .csv is ready to be loaded into the database.
 
@@ -30,7 +30,7 @@ Once your database is set up, configure all of the fields in login.py to match y
 Run main.py to start the querying algorithm.
 
 Usage:
-    python main.py -mo <month> -d <day> -it <max_iterations> -a <algorithm>
+    python main.py -mo <month> -d <day> -it <max_iterations> -a \<algorithm\>
 
 If max_iterations is not set, 7 days of data will be processed.
 
