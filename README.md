@@ -7,9 +7,13 @@ This project repeatedly queries a database containing records of taxi rides in N
 ## Required Python Libraries
 
 matplotlib
+
 numpy
+
 pandas
+
 mysql
+
 networkx
 
 ## Data Preprocessing
