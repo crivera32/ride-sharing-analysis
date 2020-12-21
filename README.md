@@ -14,7 +14,7 @@ networkx
 
 ## Data Preprocessing
 
-Run preprocess.py on the raw .csv files. The data can be accessed (here)[https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page].
+Run preprocess.py on the raw .csv files. The data can be accessed [here](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
 
 Usage:
     python preprocess.py -f \<filename\>
