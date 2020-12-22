@@ -1,6 +1,7 @@
 # New York City Ride Sharing Analysis 
 
 Author: Christian Rivera
+
 Contact: chris.rivera.3232 \[AT\] gmail.com
 
 This project repeatedly queries a database containing records of taxi rides in New York City, and determines the potential benefits of merging these rides via ride sharing. In order to process a large volume of rides efficiently, regions considered are divided into separate geographical areas and processed individually. The size of these regions changes dynamically based on current demands as the program runs. See bellow for a comparison of results using different matching algorithms.
